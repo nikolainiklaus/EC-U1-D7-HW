@@ -100,7 +100,7 @@ if (y===1){
 */
 
 
-let validDiscount = false;
+let validDiscount = true;
 
 const getDiscount = validDiscount ? "30$" : "0$";
 console.log(getDiscount);
