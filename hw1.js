@@ -61,6 +61,8 @@ let name1 = "john";
 let name2 = "john";
 console.log(name1 === name2);
 
+console.log((name1) === (name2.toLowerCase()));
+
 /* EXERCISE 8
  Create a variable named y, and assign to it a numeric value less than 10.
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
