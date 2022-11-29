@@ -31,7 +31,7 @@ ASSIGNMENT RULES
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
 */
 
-12 + 20;
+let sum = 12 + 20;
 
 /* EXERCISE 4
  Create a variable named x and assign to it the number 12.
