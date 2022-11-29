@@ -20,7 +20,7 @@ function gender(isMale) {
 let varx = 8;
 let vary = 3;
 
-if (vary === 8 || varx === 8 || varx+vary === 8 || vary-varx === 8 || vary-varx === 8) {
+if (vary === 8 || varx === 8 || varx+vary === 8 || vary-varx === 8 || varx-vary === 8) {
     console.log("condition is true");
 } else {
     console.log("condition is false");
@@ -124,5 +124,5 @@ console.log(var4 * var5);
 
 let number = 2;
 
-const result = (number % 2  == 0) ? "even" : "odd";
+const result = (number % 2  === 0) ? "even" : "odd";
 console.log(result);
