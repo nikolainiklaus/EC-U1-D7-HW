@@ -74,18 +74,18 @@ if (y===1){
         console.log("two");
         } else if (y===3){
             console.log("three");
-            } else if (y===1){
+            } else if (y===4){
                 console.log("four");
-                } else if (y===1){
+                } else if (y===5){
                     console.log("five");
-                    } else if (y===1){
+                    } else if (y===6){
                         console.log("six");
-                        } else if (y===1){
+                        } else if (y===7){
                             console.log("seven");
-                            } else if (y===1){
+                            } else if (y===8){
                                 console.log("eight");
                                 } else if (y===0){
-                                    console.log("zeor");
+                                    console.log("zero");
                                     } else if (y===9) {
                                         console.log("nine");
                                     }
@@ -96,7 +96,9 @@ if (y===1){
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
-function getDiscount(isSubscriber) {
-    return (isSubscriber ? '$5.00' : '$0');
-  }
-  
+
+
+let validDiscount = false;
+
+const getDiscount = validDiscount ? "30$" : "0$";
+console.log(getDiscount);

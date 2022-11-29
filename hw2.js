@@ -102,8 +102,11 @@ if (stringA.length >= stringB.length) {
  Write a piece of code for checking if a given value is a integer or not.
 */
 
-let var3 = "test";
+let var3 = 5;
 console.log(typeof var3);
+
+const isNumber = (typeof var3 === "number") ? "true" : "false"; 
+console.log(isNumber);
 
 /*EX 8
  Write a piece of code for calculating a certain percentage of a given number.
